@@ -1,0 +1,26 @@
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    min-height: 10vh;
+    background-color: #282828;
+}
+
+.navbar-items {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin: 0;
+}
+
+.header-logo {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #61dafb;
+    cursor: pointer;
+}
+
+.header-logo:hover {
+    color: #28cffd;
+}
